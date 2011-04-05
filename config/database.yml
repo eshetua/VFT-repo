@@ -11,7 +11,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: blipsnips_development
+  database: vft_development
   pool: 5
   username: blipsnips
   password: test
@@ -37,7 +37,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: blipsnips_test
+  database: vft_test
   pool: 5
   username: blipsnips
   password:
@@ -45,7 +45,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: blipsnips_production
+  database: vft_production
   pool: 5
   username: blipsnips
   password:
